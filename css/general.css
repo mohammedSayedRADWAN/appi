@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+overflow-x: hidden;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #0E1133;
+  overflow-x: hidden;
+
+}
+.general{
+  padding: 4.8rem 0  6.4rem 0  ;  
+}
+.container{
+  
+  max-width: 135rem;
+  padding: 0  3.2rem ;
+  margin: 0 auto;
+  margin-bottom: 2.4rem;
+}
+.grid{
+  display: grid;
+}
+.grid--2cols{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid--3cols{
+  grid-template-columns: repeat(3,1fr);
+}
+.grid--4cols{
+  grid-template-columns: repeat(4,1fr);
+}
+.grid--5cols{
+  grid-template-columns: repeat(5,1fr);
+}
+.grid--6cols{
+  grid-template-columns: repeat(6,1fr);
+}
+.flex{
+  display: flex;
+ }
+.one-raw{
+  grid-column: 1/-1;
+}
+ .dir-v{
+  flex-direction: column;
+ }
+ .large-gap{
+  gap: 9.2rem;
+ }
+ 
+ .midum-gap{
+  gap: 3.2rem;
+ }
+ .md-gap{
+  gap: 2.4rem;
+ }
+ .small-gap{
+  gap: 1.2rem;
+ }
+ .alining{
+  align-items: center;
+ }
+ .alining-start{
+  align-items:flex-start;
+ }
+ .just{
+  justify-content: center;
+ }
+ 
+ .just-btw{
+justify-content: space-between;
+ }
+ .just-self-cnt{
+  justify-self: center;
+ }
